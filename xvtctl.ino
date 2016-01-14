@@ -1,3 +1,13 @@
+#
+# LA1FTA Transverter Controller
+#
+# Arduino code to interface transceiver control and TX sequencing, coax relays, and PLL
+# oscillator of a transverter. The project is a 2.4 GHz transverter with 433 MHz IF, but
+# the code can easily be used for other bands as well.
+#
+# The project uses code from https://github.com/JQIamo/ADF4350-arduino to control the
+# ADF4350 PLL local oscillator
+#
 #include <SPI.h>
 #include <ADF4350.h>
 
